@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  background-color: #222222;
+}
+
+.card {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 450px;
+  height: 280px;
+  background-color: #eeeeee;
+  border-radius: 4px;
+}
+
+  .header {
+    width: 100%;
+    height: 15%;
+    padding: 15px 20px;
+    background-color: #D2D7D3;
+    color: #343434;
+    border-radius: 4px 4px 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Karla'
+  }
+
+    .header h4 {
+      margin: 0px;
+    }
+
+  hr {
+    margin: 0px;
+  }
+
+  .body {
+    width: 100%;
+    height: 85%;
+  }
+
+    .views {
+      width: 100%;
+      font-family: 'Cutive Mono';
+    }
+
+      .view-data {
+        margin: 0px;
+        font-size: 64px;
+        text-align: center;
+      }
+
+      .view-info {
+        text-align: right;
+        opacity: 0.4;
+        padding-right: 20%;
+        font-family: 'Karla';
+        margin: -15px 0px 0px 0px;
+      }
+
+      .like-wrapper {
+        margin: 10px 0px;
+        width: 100%;
+        font-size: 10px;
+        color: #eeeeee;
+        font-family: 'Cutive Mono';
+        font-weight: bolder;
+      }
+
+        .like-wrapper .positiv {
+          float: left;
+          background-color: #87D37C;
+          width: 25%;
+          padding-left: 10px;
+          box-sizing: border-box;
+        }
+
+        .like-wrapper .negativ {
+          float: right;
+          background-color: #EC644B;
+          width: 75%;
+          text-align: right;
+          padding-right: 10px;
+          box-sizing: border-box;
+        }

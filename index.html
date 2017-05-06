@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="dataHandler">
+  <head>
+    <meta charset="utf-8">
+    <title> BibisBeautyPalace </title>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Karla" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="data.js"></script>
+  </head>
+  <body ng-controller="dataDisplay">
+    <div class="card">
+      <div class="header">
+        <h4> Bibi H - How it is (wap bap) (Official Video) | Live Stats</h4>
+      </div>
+      <hr>
+      <div class="body">
+        <div class="views">
+          <h1 class="view-data">{{data.viewCount}}</h1>
+          <p class="view-info">views</p>
+        </div>
+        <div class="likes">
+          <div class="like-wrapper">
+            <div class="positiv">
+              {{data.likeCount}}
+            </div>
+            <div class="negativ">
+              {{data.dislikeCount}}
+            </div>
+          </div>
+          <div class="views">
+            <h1 class="view-data">{{data.commentCount}}</h1>
+            <p class="view-info">comments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
