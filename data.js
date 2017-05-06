@@ -13,5 +13,6 @@ angular.module('dataHandler', [])
     });
   }
 
+  getUserData();
   setInterval(getUserData, 1000);
 });
